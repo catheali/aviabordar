@@ -1,0 +1,66 @@
+@font-face {
+    font-family:im fell;
+    src: url(../font/FeENit2.ttf)
+}
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;  
+}
+header{
+    padding: center;
+    font-family:  im fell; 
+}
+a:link, a:visited {
+        color: #724e81;
+        text-decoration: none
+        
+}
+a:hover {
+        text-decoration: none;
+        color: #a277b4;                
+}
+p{
+    font-family:'Times New Roman', Times, serif
+}
+.cabecalho{
+     display:flex;
+     justify-content: center;
+}
+
+.menuhorizontal li{
+    display: inline-block;
+    border: solid 1px black;
+    border-radius: 9%;
+    padding: 20px;
+    font-family:  im fell; 
+}
+.rodape {color: #DA70D6;
+    font-size: large; 
+    font-family:  im fell; 
+    font-family:'Lucida Sans';
+}
+.prod ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+	display: flex;
+}
+
+ul li {
+	list-style-type: none;    
+}
+.prop{
+    font-family: im fell;
+    padding: 10px;
+}
+.estilo{    
+    font-family:  im fell; 
+    color: rgb(92, 65, 117);
+ }
+.conteudo{
+    border: dashed 2px black;
+    border-radius: 10%;    
+}
