@@ -49,9 +49,8 @@ p{
 }
 .prod ul {
 	display: flex;
-	flex-wrap: wrap;
-	
-   }
+	flex-wrap: wrap;	
+}
 
 .prod ul li {
 	list-style-type: none;    
