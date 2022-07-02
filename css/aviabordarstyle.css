@@ -40,16 +40,11 @@ p{
     font-family:  im fell; 
     font-family:'Lucida Sans';
 }
-.prod {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-ul {
+.prod ul {
 	display: flex;
-}
+   }
 
-ul li {
+.prod ul li {
 	list-style-type: none;    
 }
 .prop{
@@ -62,7 +57,8 @@ ul li {
  }
 .conteudo{
     border: dashed 2px black;
-    border-radius: 10%;    
+    border-radius: 10%;
+    display: center;
 }
 .conteudo2{
     border: dashed 2px black;
