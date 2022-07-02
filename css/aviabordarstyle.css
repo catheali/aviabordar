@@ -42,7 +42,7 @@ p{
 }
 .prod ul {
 	display: flex;
-	flex-wrap: wrap;
+	
    }
 
 .prod ul li {
