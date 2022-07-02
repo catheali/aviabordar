@@ -40,7 +40,7 @@ p{
     font-family:  im fell; 
     font-family:'Lucida Sans';
 }
-.prod ul{
+.prod {
     display: flex;
     flex-wrap: wrap;
 }
