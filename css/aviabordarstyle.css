@@ -31,8 +31,8 @@ p{
 .menuhorizontal li{
     display: inline-block;
     border: solid 1px black;
-    border-radius: 9%;
-    padding: 20px;
+    border-radius: 8%;
+    padding: 15px;
     font-family:  im fell; 
 }
 .rodape {color: #DA70D6;
