@@ -40,8 +40,16 @@ p{
     font-family:  im fell; 
     font-family:'Lucida Sans';
 }
+.aut ul {
+	display: flex;
+   }
+
+.aut ul li {
+	list-style-type: none;    
+}
 .prod ul {
 	display: flex;
+	flex-wrap: wrap;
 	
    }
 
