@@ -1,77 +1,105 @@
 @font-face {
-    font-family:im fell;
-    src: url(../font/FeENit2.ttf)
+  font-family: im fell;
+  src: url(../font/FeENit2.ttf);
 }
-body{
-    margin-left: 100px;
-    margin-right: 100px;
-    text-align: center;  
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
 }
-header{
-    padding: center;
-    font-family:  im fell; 
+header {
+  padding: center;
+  font-family: im fell;
 }
-a:link, a:visited {
-        color: #724e81;
-        text-decoration: none
-        
+
+a:link,
+a:visited {
+  color: #724e81;
+  text-decoration: none;
 }
 a:hover {
-        text-decoration: none;
-        color: #a277b4;                
+  text-decoration: none;
+  color: #a277b4;
 }
-p{
-    font-family:'Times New Roman', Times, serif
+p {
+  font-family: "Times New Roman", Times, serif;
 }
-.cabecalho{
-     display:flex;
-     justify-content: center;
+.cabecalho {
+  display: flex;
+  justify-content: center;
 }
 
-.menuhorizontal li{
-    display: inline-block;
-    border: solid 1px black;
-    border-radius: 8%;
-    padding: 10px;
-    font-family:  im fell; 
+.menuhorizontal li {
+  display: inline-block;
+  border: solid 1px black;
+  border-radius: 8%;
+  padding: 10px;
+  font-family: im fell;
 }
-.rodape {color: #DA70D6;
-    font-size: large; 
-    font-family:  im fell; 
-    font-family:'Lucida Sans';
+.rodape {
+  color: #da70d6;
+  font-size: large;
+  font-family: im fell;
+  font-family: "Lucida Sans";
 }
 .aut ul {
-	display: flex;
-   }
+  display: flex;
+}
 
 .aut ul li {
-	list-style-type: none;    
+  list-style-type: none;
 }
 .prod ul {
-	display: flex;
-	flex-wrap: wrap;	
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .prod ul li {
-	list-style-type: none;    
+  list-style-type: none;
 }
-.prop{
-    font-family: im fell;
-    padding: 10px;
+.prop {
+  font-family: im fell;
+  padding: 10px;
 }
-.estilo{    
-    font-family:  im fell; 
-    color: rgb(92, 65, 117);
- }
-.conteudo{
-    border: dashed 2px black;
-    border-radius: 10%;
-    display: center;
+.estilo {
+  font-family: im fell;
+  color: rgb(92, 65, 117);
 }
-.conteudo2{
-    border: dashed 2px black;
-    border-radius: 10%;
-    display: center;
+.conteudo {
+  border: dashed 2px black;
+  border-radius: 10%;
+  display: center;
+  padding: 20px ;
+}
+.conteudo2 {
+  border: dashed 2px black;
+  border-radius: 10%;
+  display: center;
 }
 
-	
+section {
+  margin-bottom: 100px;
+}
+
+.form-encomenda{
+    display: block;
+}
+.form-encomenda input[type="text"], input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #5c4175 ;
+}
+
+.form-encomenda textarea, select{
+    border: 1px solid #5c4175;
+    border-radius: 5px;
+}
+
+.btn-enviar{
+    color:#5c4175;
+    font-family: im fell;
+    font-size: 18px;
+    border: 2px solid #a297ad;
+    border-radius: 10px;
+    background-color: #fff;
+
+}
